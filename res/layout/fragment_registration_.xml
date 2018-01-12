@@ -1,0 +1,67 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#FF26AD8F"
+    android:gravity="center"
+    tools:context="com.example.kunal.food.LoginAndResgistration.Registration_">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:textColor="#000"
+        android:textSize="20dp"
+        android:hint="Email"
+        android:background="@drawable/email_pass_styles"
+        android:id="@+id/res_email"
+        android:inputType="textEmailAddress"
+        android:textColorHint="#666"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"
+        android:fontFamily="sans-serif"
+        android:paddingLeft="20dp"
+        android:layout_marginTop="10dp"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:textColorHint="#666"
+        android:textColor="#000"
+        android:textSize="20dp"
+        android:hint="Password"
+        android:paddingLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"
+        android:id="@+id/res_pass"
+        android:background="@drawable/email_pass_styles"
+        android:fontFamily="sans-serif"
+        android:inputType="textPassword"
+        android:layout_marginTop="10dp"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"
+        android:id="@+id/register"
+        android:background="#fff"
+        android:textColor="#FF26AD8F"
+        android:layout_marginTop="30dp"
+        android:text="Register"
+        android:textSize="15dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Have Account? | Sign In"
+        android:textColor="#000"
+        android:fontFamily="sans-serif"
+        android:textSize="20sp"
+        android:layout_marginTop="50dp"
+        android:id="@+id/go_login"
+        android:gravity="center_horizontal"/>
+
+</LinearLayout>
