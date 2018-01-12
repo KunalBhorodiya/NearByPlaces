@@ -1,1 +1,3 @@
 # NearByPlaces
+
+  Android app for searching near by places...
